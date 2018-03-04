@@ -3,7 +3,7 @@ assignment running instructions:
 	1.1) ssh komodo@192.168.0.100  #when 192.168.0.100 is the robot ip
 	1.2) export ROS_IP="192.168.0.100" #define ROS_IP and check you defined it right with echo.
 	1.3) run the following command in the ros.
-		"roslaunch robotican_komodo komodo_nav.launch lidar:=true move_base:=true front_camera:=true robot_localization:=true asus_camera:=true have_map_file:=true map_file:=/home/komodo/37build2.yaml"
+		"roslaunch robotican_komodo komodo_nav.launch lidar:=true move_base:=true front_camera:=true robot_localization:=true asus_camera:=true have_map_file:=true map_file:=/home/komodo/ILO_map.yaml"
 2)run the following command in terminal .
 	source /opt/ros/indigo/setup.bash
     source $HOME/catkin_ws/devel/setup.bash
